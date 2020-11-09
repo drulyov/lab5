@@ -1,0 +1,288 @@
+Nov  8 05:15:26 localhost postfix/pickup[18037]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 06:55:30 localhost postfix/pickup[18083]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 08:35:34 localhost postfix/pickup[18125]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 10:15:38 localhost postfix/pickup[18191]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 11:55:42 localhost postfix/pickup[18226]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 13:35:45 localhost postfix/pickup[18280]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 15:15:48 localhost postfix/pickup[18326]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 16:34:34 localhost postfix/sendmail[18985]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 16:34:34 localhost postfix/postdrop[18986]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 16:34:34 localhost postfix/cleanup[18987]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 16:34:34 localhost postfix/pickup[18326]: C13AF20896A8: uid=1000 from=<student>
+Nov  8 16:34:34 localhost postfix/trivial-rewrite[18988]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 16:34:34 localhost postfix/cleanup[18987]: C13AF20896A8: message-id=<20201108213434.C13AF20896A8@mail.drulyov.com>
+Nov  8 16:34:34 localhost postfix/qmgr[14303]: C13AF20896A8: from=<student@drulyov.com>, size=464, nrcpt=1 (queue active)
+Nov  8 16:34:34 localhost postfix/smtp[18989]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 16:34:34 localhost postfix/tlsmgr[18990]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 16:34:34 localhost postfix/bounce[18991]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 16:34:34 localhost postfix/smtp[18989]: C13AF20896A8: to=<ljrafols@mail.ljrafols.com>, relay=none, delay=0.1, delays=0.03/0.04/0.03/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=mail.ljrafols.com type=AAAA: Host not found)
+Nov  8 16:34:34 localhost postfix/cleanup[18987]: D7FAB20896A9: message-id=<20201108213434.D7FAB20896A9@mail.drulyov.com>
+Nov  8 16:34:34 localhost postfix/qmgr[14303]: D7FAB20896A9: from=<>, size=2534, nrcpt=1 (queue active)
+Nov  8 16:34:34 localhost postfix/bounce[18991]: C13AF20896A8: sender non-delivery notification: D7FAB20896A9
+Nov  8 16:34:34 localhost postfix/qmgr[14303]: C13AF20896A8: removed
+Nov  8 16:34:34 localhost postfix/local[18992]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 16:34:34 localhost postfix/local[18992]: D7FAB20896A9: to=<student@drulyov.com>, relay=local, delay=0.01, delays=0/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 16:34:34 localhost postfix/qmgr[14303]: D7FAB20896A9: removed
+Nov  8 16:54:51 localhost postfix/pickup[19231]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 18:34:54 localhost postfix/pickup[19456]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 20:14:57 localhost postfix/pickup[19507]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 21:43:37 pri postfix/sendmail[1809]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 21:43:37 pri postfix/postdrop[1810]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 21:44:21 pri postfix/sendmail[1813]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 21:44:21 pri postfix/postdrop[1814]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 21:46:07 pri postfix/sendmail[2054]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 21:46:07 pri postfix/postdrop[2055]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 21:48:48 pri postfix/sendmail[2311]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 21:48:48 pri postfix/postdrop[2312]: warning: /etc/postfix/main.cf, line 187: overriding earlier entry: inet_interfaces=localhost
+Nov  8 21:52:40 pri postfix/postfix-script[2391]: starting the Postfix mail system
+Nov  8 21:52:40 pri postfix/master[2393]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  8 21:52:40 pri postfix/pickup[2394]: 5BDF320973F1: uid=1000 from=<student>
+Nov  8 21:52:40 pri postfix/cleanup[2396]: 5BDF320973F1: message-id=<20201109025240.5BDF320973F1@mail.drulyov.com>
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 5BDF320973F1: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 21:52:40 pri postfix/pickup[2394]: 5F7FD2092133: uid=1000 from=<student>
+Nov  8 21:52:40 pri postfix/cleanup[2396]: 5F7FD2092133: message-id=<20201109025240.5F7FD2092133@mail.drulyov.com>
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 5F7FD2092133: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 21:52:40 pri postfix/pickup[2394]: 603922089699: uid=1000 from=<student>
+Nov  8 21:52:40 pri postfix/cleanup[2396]: 603922089699: message-id=<20201109025240.603922089699@mail.drulyov.com>
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 603922089699: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 21:52:40 pri postfix/pickup[2394]: 60B52208969A: uid=1000 from=<student>
+Nov  8 21:52:40 pri postfix/cleanup[2396]: 60B52208969A: message-id=<20201109025240.60B52208969A@mail.drulyov.com>
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 60B52208969A: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 21:52:40 pri postfix/smtp[2398]: 5BDF320973F1: to=<rjacinto1@rjacinto.com>, relay=none, delay=543, delays=543/0.04/0.04/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto.com type=AAAA: Host not found)
+Nov  8 21:52:40 pri postfix/smtp[2400]: 5F7FD2092133: to=<rjacinto1@rjacinto.com>, relay=none, delay=499, delays=499/0.06/0.03/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto.com type=AAAA: Host not found)
+Nov  8 21:52:40 pri postfix/smtp[2401]: 603922089699: to=<rjacinto1@rjacinto.com>, relay=none, delay=393, delays=393/0.08/0.03/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto.com type=AAAA: Host not found)
+Nov  8 21:52:40 pri postfix/cleanup[2396]: 7F0CA208969B: message-id=<20201109025240.7F0CA208969B@mail.drulyov.com>
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 7F0CA208969B: from=<>, size=2516, nrcpt=1 (queue active)
+Nov  8 21:52:40 pri postfix/bounce[2404]: 5BDF320973F1: sender non-delivery notification: 7F0CA208969B
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 5BDF320973F1: removed
+Nov  8 21:52:40 pri postfix/cleanup[2396]: 84A1F208969C: message-id=<20201109025240.84A1F208969C@mail.drulyov.com>
+Nov  8 21:52:40 pri postfix/smtp[2403]: 60B52208969A: to=<rjacinto1@rjacinto.com>, relay=none, delay=232, delays=232/0.1/0.02/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto.com type=AAAA: Host not found)
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 84A1F208969C: from=<>, size=2516, nrcpt=1 (queue active)
+Nov  8 21:52:40 pri postfix/bounce[2402]: 5F7FD2092133: sender non-delivery notification: 84A1F208969C
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 5F7FD2092133: removed
+Nov  8 21:52:40 pri postfix/cleanup[2396]: 8593F208969D: message-id=<20201109025240.8593F208969D@mail.drulyov.com>
+Nov  8 21:52:40 pri postfix/cleanup[2406]: 8588020973F1: message-id=<20201109025240.8588020973F1@mail.drulyov.com>
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 8588020973F1: from=<>, size=2516, nrcpt=1 (queue active)
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 8593F208969D: from=<>, size=2516, nrcpt=1 (queue active)
+Nov  8 21:52:40 pri postfix/bounce[2404]: 60B52208969A: sender non-delivery notification: 8593F208969D
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 60B52208969A: removed
+Nov  8 21:52:40 pri postfix/bounce[2405]: 603922089699: sender non-delivery notification: 8588020973F1
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 603922089699: removed
+Nov  8 21:52:40 pri postfix/local[2408]: 7F0CA208969B: to=<student@drulyov.com>, relay=local, delay=0.06, delays=0.02/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 7F0CA208969B: removed
+Nov  8 21:52:40 pri postfix/local[2408]: 8588020973F1: to=<student@drulyov.com>, relay=local, delay=0.05, delays=0.01/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 8588020973F1: removed
+Nov  8 21:52:40 pri postfix/local[2410]: 8593F208969D: to=<student@drulyov.com>, relay=local, delay=0.05, delays=0/0.04/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 21:52:40 pri postfix/qmgr[2395]: 8593F208969D: removed
+Nov  8 21:52:41 pri postfix/local[2409]: 84A1F208969C: to=<student@drulyov.com>, relay=local, delay=0.89, delays=0.03/0.03/0/0.83, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 21:52:41 pri postfix/qmgr[2395]: 84A1F208969C: removed
+Nov  8 21:55:03 pri postfix/pickup[2394]: E227020973F1: uid=1000 from=<student>
+Nov  8 21:55:03 pri postfix/cleanup[2452]: E227020973F1: message-id=<20201109025503.E227020973F1@mail.drulyov.com>
+Nov  8 21:55:03 pri postfix/qmgr[2395]: E227020973F1: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 21:55:13 pri postfix/smtp[2453]: E227020973F1: to=<rjacinto1@rjacinto.com>, relay=none, delay=10, delays=0.02/0.02/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto.com type=MX: Host not found, try again)
+Nov  8 21:56:37 pri postfix/pickup[2394]: 9414E2092133: uid=1000 from=<student>
+Nov  8 21:56:37 pri postfix/cleanup[2452]: 9414E2092133: message-id=<20201109025637.9414E2092133@mail.drulyov.com>
+Nov  8 21:56:37 pri postfix/qmgr[2395]: 9414E2092133: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 21:56:47 pri postfix/smtp[2453]: 9414E2092133: to=<rjacinto1@rjacinto.com>, relay=none, delay=10, delays=0.01/0/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto.com type=MX: Host not found, try again)
+Nov  8 21:57:38 pri postfix/pickup[2394]: E21E3208969A: uid=1000 from=<student>
+Nov  8 21:57:38 pri postfix/cleanup[2452]: E21E3208969A: message-id=<20201109025738.E21E3208969A@mail.drulyov.com>
+Nov  8 21:57:38 pri postfix/qmgr[2395]: E21E3208969A: from=<student@drulyov.com>, size=473, nrcpt=1 (queue active)
+Nov  8 21:57:48 pri postfix/smtp[2453]: E21E3208969A: to=<rjacinto1@mail.rjacinto.com>, relay=none, delay=10, delays=0.01/0/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=mail.rjacinto.com type=MX: Host not found, try again)
+Nov  8 21:59:26 pri postfix/pickup[2394]: 914C7208969B: uid=1002 from=<drulyov>
+Nov  8 21:59:26 pri postfix/cleanup[2513]: 914C7208969B: message-id=<20201109025926.914C7208969B@mail.drulyov.com>
+Nov  8 21:59:26 pri postfix/qmgr[2395]: 914C7208969B: from=<drulyov@drulyov.com>, size=459, nrcpt=1 (queue active)
+Nov  8 21:59:35 pri postfix/pickup[2394]: 907D2208969C: uid=1002 from=<drulyov>
+Nov  8 21:59:35 pri postfix/cleanup[2513]: 907D2208969C: message-id=<20201109025935.907D2208969C@mail.drulyov.com>
+Nov  8 21:59:35 pri postfix/qmgr[2395]: 907D2208969C: from=<drulyov@drulyov.com>, size=494, nrcpt=1 (queue active)
+Nov  8 21:59:35 pri postfix/local[2522]: 907D2208969C: to=<root@drulyov.com>, orig_to=<root>, relay=local, delay=0.02, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 21:59:35 pri postfix/qmgr[2395]: 907D2208969C: removed
+Nov  8 21:59:36 pri postfix/smtp[2453]: 914C7208969B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=10, delays=0.03/0/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 22:01:18 pri postfix/pickup[2394]: 03148208969C: uid=1002 from=<drulyov>
+Nov  8 22:01:18 pri postfix/cleanup[2545]: 03148208969C: message-id=<20201109030118.03148208969C@mail.drulyov.com>
+Nov  8 22:01:18 pri postfix/qmgr[2395]: 03148208969C: from=<drulyov@drulyov.com>, size=503, nrcpt=1 (queue active)
+Nov  8 22:01:18 pri postfix/local[2546]: 03148208969C: to=<root@drulyov.com>, orig_to=<root>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:01:18 pri postfix/qmgr[2395]: 03148208969C: removed
+Nov  8 22:02:40 pri postfix/qmgr[2395]: E227020973F1: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 9414E2092133: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 22:02:40 pri postfix/smtp[2559]: E227020973F1: to=<rjacinto1@rjacinto.com>, relay=none, delay=456, delays=456/0.03/0.02/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto.com type=AAAA: Host not found)
+Nov  8 22:02:40 pri postfix/cleanup[2545]: 214BE208969C: message-id=<20201109030240.214BE208969C@mail.drulyov.com>
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 214BE208969C: from=<>, size=2516, nrcpt=1 (queue active)
+Nov  8 22:02:40 pri postfix/bounce[2561]: E227020973F1: sender non-delivery notification: 214BE208969C
+Nov  8 22:02:40 pri postfix/qmgr[2395]: E227020973F1: removed
+Nov  8 22:02:40 pri postfix/smtp[2560]: 9414E2092133: to=<rjacinto1@rjacinto.com>, relay=none, delay=363, delays=362/0.06/0/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto.com type=AAAA: Host not found)
+Nov  8 22:02:40 pri postfix/cleanup[2545]: 2298820973F1: message-id=<20201109030240.2298820973F1@mail.drulyov.com>
+Nov  8 22:02:40 pri postfix/local[2546]: 214BE208969C: to=<student@drulyov.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 214BE208969C: removed
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 2298820973F1: from=<>, size=2516, nrcpt=1 (queue active)
+Nov  8 22:02:40 pri postfix/bounce[2561]: 9414E2092133: sender non-delivery notification: 2298820973F1
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 9414E2092133: removed
+Nov  8 22:02:40 pri postfix/local[2546]: 2298820973F1: to=<student@drulyov.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 2298820973F1: removed
+Nov  8 22:02:40 pri postfix/pickup[2394]: 86E6720973F1: uid=1000 from=<student>
+Nov  8 22:02:40 pri postfix/cleanup[2545]: 86E6720973F1: message-id=<20201109030240.86E6720973F1@mail.drulyov.com>
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 86E6720973F1: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 22:02:40 pri postfix/smtp[2559]: 86E6720973F1: to=<rjacinto1@rjacinto.com>, relay=none, delay=0.01, delays=0.01/0/0/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto.com type=AAAA: Host not found)
+Nov  8 22:02:40 pri postfix/cleanup[2545]: 8836B2092133: message-id=<20201109030240.8836B2092133@mail.drulyov.com>
+Nov  8 22:02:40 pri postfix/bounce[2562]: 86E6720973F1: sender non-delivery notification: 8836B2092133
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 86E6720973F1: removed
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 8836B2092133: from=<>, size=2516, nrcpt=1 (queue active)
+Nov  8 22:02:40 pri postfix/local[2546]: 8836B2092133: to=<student@drulyov.com>, relay=local, delay=0, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:02:40 pri postfix/qmgr[2395]: 8836B2092133: removed
+Nov  8 22:04:11 pri postfix/postfix-script[2597]: stopping the Postfix mail system
+Nov  8 22:04:11 pri postfix/master[2393]: terminating on signal 15
+Nov  8 22:04:11 pri postfix/postfix-script[2675]: starting the Postfix mail system
+Nov  8 22:04:11 pri postfix/master[2677]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  8 22:04:11 pri postfix/qmgr[2679]: E21E3208969A: from=<student@drulyov.com>, size=473, nrcpt=1 (queue active)
+Nov  8 22:04:11 pri postfix/smtp[2681]: E21E3208969A: to=<rjacinto1@mail.rjacinto.com>, relay=none, delay=393, delays=393/0.05/0/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=mail.rjacinto.com type=A: Host not found)
+Nov  8 22:04:11 pri postfix/cleanup[2684]: F118220973F1: message-id=<20201109030411.F118220973F1@mail.drulyov.com>
+Nov  8 22:04:11 pri postfix/qmgr[2679]: F118220973F1: from=<>, size=2540, nrcpt=1 (queue active)
+Nov  8 22:04:11 pri postfix/bounce[2683]: E21E3208969A: sender non-delivery notification: F118220973F1
+Nov  8 22:04:11 pri postfix/qmgr[2679]: E21E3208969A: removed
+Nov  8 22:04:12 pri postfix/local[2685]: F118220973F1: to=<student@drulyov.com>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:04:12 pri postfix/qmgr[2679]: F118220973F1: removed
+Nov  8 22:04:16 pri postfix/pickup[2678]: C343220973F1: uid=1000 from=<student>
+Nov  8 22:04:16 pri postfix/cleanup[2684]: C343220973F1: message-id=<20201109030416.C343220973F1@mail.drulyov.com>
+Nov  8 22:04:16 pri postfix/qmgr[2679]: C343220973F1: from=<student@drulyov.com>, size=468, nrcpt=1 (queue active)
+Nov  8 22:04:16 pri postfix/smtp[2681]: C343220973F1: to=<rjacinto1@rjacinto.com>, relay=none, delay=0.01, delays=0.01/0/0/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto.com type=A: Host not found)
+Nov  8 22:04:16 pri postfix/cleanup[2684]: C4D132092133: message-id=<20201109030416.C4D132092133@mail.drulyov.com>
+Nov  8 22:04:16 pri postfix/qmgr[2679]: C4D132092133: from=<>, size=2510, nrcpt=1 (queue active)
+Nov  8 22:04:16 pri postfix/bounce[2683]: C343220973F1: sender non-delivery notification: C4D132092133
+Nov  8 22:04:16 pri postfix/qmgr[2679]: C343220973F1: removed
+Nov  8 22:04:16 pri postfix/local[2685]: C4D132092133: to=<student@drulyov.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:04:16 pri postfix/qmgr[2679]: C4D132092133: removed
+Nov  8 22:04:39 pri postfix/pickup[2678]: 1BDC020973F1: uid=1000 from=<student>
+Nov  8 22:04:39 pri postfix/cleanup[2684]: 1BDC020973F1: message-id=<20201109030439.1BDC020973F1@mail.drulyov.com>
+Nov  8 22:04:39 pri postfix/qmgr[2679]: 1BDC020973F1: from=<student@drulyov.com>, size=469, nrcpt=1 (queue active)
+Nov  8 22:04:39 pri postfix/smtp[2681]: 1BDC020973F1: to=<rjacinto1@rjacinto1.com>, relay=mail.rjacinto1.com[192.168.13.25]:25, delay=0.1, delays=0/0/0.09/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 39BD020A5B29)
+Nov  8 22:04:39 pri postfix/qmgr[2679]: 1BDC020973F1: removed
+Nov  8 22:05:41 pri postfix/smtpd[2697]: connect from unknown[192.168.13.3]
+Nov  8 22:05:41 pri postfix/smtpd[2697]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:05:41 pri postfix/smtpd[2697]: warning: mynetworks: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:05:41 pri postfix/smtpd[2697]: NOQUEUE: reject: RCPT from unknown[192.168.13.3]: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure; from=<rjacinto1@rjacinto1.com> to=<student@drulyov.com> proto=ESMTP helo=<mail.rjacinto1.com>
+Nov  8 22:05:41 pri postfix/smtpd[2697]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:05:41 pri postfix/smtpd[2697]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 22:07:07 pri postfix/smtpd[2697]: connect from unknown[192.168.13.3]
+Nov  8 22:07:07 pri postfix/smtpd[2697]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:07:07 pri postfix/smtpd[2697]: warning: mynetworks: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:07:07 pri postfix/smtpd[2697]: NOQUEUE: reject: RCPT from unknown[192.168.13.3]: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure; from=<rjacinto1@rjacinto1.com> to=<student@drulyov.com> proto=ESMTP helo=<mail.rjacinto1.com>
+Nov  8 22:07:07 pri postfix/smtpd[2697]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:07:07 pri postfix/smtpd[2697]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 22:07:40 pri postfix/smtpd[2697]: connect from unknown[192.168.13.3]
+Nov  8 22:07:40 pri postfix/smtpd[2697]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:07:40 pri postfix/smtpd[2697]: warning: mynetworks: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:07:40 pri postfix/smtpd[2697]: NOQUEUE: reject: RCPT from unknown[192.168.13.3]: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure; from=<rjacinto1@rjacinto1.com> to=<student@drulyov.com> proto=ESMTP helo=<mail.rjacinto1.com>
+Nov  8 22:07:40 pri postfix/smtpd[2697]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:07:40 pri postfix/smtpd[2697]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 22:09:11 pri postfix/qmgr[2679]: 914C7208969B: from=<drulyov@drulyov.com>, size=459, nrcpt=1 (queue active)
+Nov  8 22:09:11 pri postfix/smtp[2729]: 914C7208969B: to=<rjacinto1@rjacinto1.com>, relay=mail.rjacinto1.com[192.168.13.25]:25, delay=585, delays=585/0.04/0.1/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 7153D20A5B2C)
+Nov  8 22:09:11 pri postfix/qmgr[2679]: 914C7208969B: removed
+Nov  8 22:11:00 pri postfix/anvil[2699]: statistics: max connection rate 2/60s for (smtp:192.168.13.3) at Nov  8 22:07:40
+Nov  8 22:11:00 pri postfix/anvil[2699]: statistics: max connection count 1 for (smtp:192.168.13.3) at Nov  8 22:05:41
+Nov  8 22:11:00 pri postfix/anvil[2699]: statistics: max cache size 1 at Nov  8 22:05:41
+Nov  8 22:27:41 pri postfix/pickup[2678]: BA3D520973F1: uid=1000 from=<student>
+Nov  8 22:27:41 pri postfix/cleanup[2964]: BA3D520973F1: message-id=<20201109032741.BA3D520973F1@mail.drulyov.com>
+Nov  8 22:27:41 pri postfix/qmgr[2679]: BA3D520973F1: from=<student@drulyov.com>, size=469, nrcpt=1 (queue active)
+Nov  8 22:27:41 pri postfix/smtp[2966]: BA3D520973F1: to=<rjacinto1@rjacinto1.com>, relay=mail.rjacinto1.com[192.168.13.25]:25, delay=0.2, delays=0.03/0.02/0.11/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 71B4620895AD)
+Nov  8 22:27:41 pri postfix/qmgr[2679]: BA3D520973F1: removed
+Nov  8 22:28:40 pri postfix/smtpd[2968]: connect from unknown[192.168.13.3]
+Nov  8 22:28:40 pri postfix/smtpd[2968]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:28:40 pri postfix/smtpd[2968]: warning: mynetworks: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:28:40 pri postfix/smtpd[2968]: NOQUEUE: reject: RCPT from unknown[192.168.13.3]: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure; from=<rjacinto1@rjacinto1.com> to=<student@drulyov.com> proto=ESMTP helo=<mail.rjacinto1.com>
+Nov  8 22:28:40 pri postfix/smtpd[2968]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:28:40 pri postfix/smtpd[2968]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 22:29:14 pri postfix/smtpd[2968]: connect from unknown[192.168.13.3]
+Nov  8 22:29:14 pri postfix/smtpd[2968]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:29:14 pri postfix/smtpd[2968]: warning: mynetworks: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:29:14 pri postfix/smtpd[2968]: NOQUEUE: reject: RCPT from unknown[192.168.13.3]: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure; from=<rjacinto1@rjacinto1.com> to=<student@drulyov.com> proto=ESMTP helo=<mail.rjacinto1.com>
+Nov  8 22:29:14 pri postfix/smtpd[2968]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:29:14 pri postfix/smtpd[2968]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 22:29:15 pri postfix/smtpd[2968]: connect from unknown[192.168.21.3]
+Nov  8 22:29:15 pri postfix/smtpd[2968]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:29:15 pri postfix/smtpd[2968]: warning: mynetworks: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:29:15 pri postfix/smtpd[2968]: NOQUEUE: reject: RCPT from unknown[192.168.21.3]: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure; from=<sknasser1@sknasser1.com> to=<student@drulyov.com> proto=ESMTP helo=<mail.sknasser1.com>
+Nov  8 22:29:15 pri postfix/smtpd[2968]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:29:15 pri postfix/smtpd[2968]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 22:29:51 pri postfix/smtpd[2968]: connect from unknown[192.168.13.3]
+Nov  8 22:29:51 pri postfix/smtpd[2968]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:29:51 pri postfix/smtpd[2968]: warning: mynetworks: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:29:51 pri postfix/smtpd[2968]: NOQUEUE: reject: RCPT from unknown[192.168.13.3]: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure; from=<rjacinto1@rjacinto1.com> to=<student@drulyov.com> proto=ESMTP helo=<mail.rjacinto1.com>
+Nov  8 22:29:51 pri postfix/smtpd[2968]: warning: smtpd_client_event_limit_exceptions: non-null host address bits in "127.0.0.1/8", perhaps you should use "127.0.0.0/8" instead
+Nov  8 22:29:51 pri postfix/smtpd[2968]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 22:32:52 pri postfix/postfix-script[3011]: stopping the Postfix mail system
+Nov  8 22:32:52 pri postfix/master[2677]: terminating on signal 15
+Nov  8 22:32:53 pri postfix/postfix-script[3089]: starting the Postfix mail system
+Nov  8 22:32:53 pri postfix/master[3091]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  8 22:37:06 pri postfix/smtpd[3101]: connect from unknown[192.168.21.3]
+Nov  8 22:37:06 pri postfix/smtpd[3101]: 85A2E20973F1: client=unknown[192.168.21.3]
+Nov  8 22:37:06 pri postfix/cleanup[3106]: 85A2E20973F1: message-id=<20201109032915.15C54107053@mail.sknasser1.com>
+Nov  8 22:37:06 pri postfix/qmgr[3093]: 85A2E20973F1: from=<sknasser1@sknasser1.com>, size=661, nrcpt=1 (queue active)
+Nov  8 22:37:06 pri postfix/smtpd[3101]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:37:06 pri postfix/local[3107]: 85A2E20973F1: to=<student@drulyov.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:37:06 pri postfix/qmgr[3093]: 85A2E20973F1: removed
+Nov  8 22:40:26 pri postfix/anvil[3104]: statistics: max connection rate 1/60s for (smtp:192.168.21.3) at Nov  8 22:37:06
+Nov  8 22:40:26 pri postfix/anvil[3104]: statistics: max connection count 1 for (smtp:192.168.21.3) at Nov  8 22:37:06
+Nov  8 22:40:26 pri postfix/anvil[3104]: statistics: max cache size 1 at Nov  8 22:37:06
+Nov  8 22:41:23 pri postfix/pickup[3092]: 9202420973F1: uid=1002 from=<drulyov>
+Nov  8 22:41:23 pri postfix/cleanup[3140]: 9202420973F1: message-id=<20201109034123.9202420973F1@mail.drulyov.com>
+Nov  8 22:41:23 pri postfix/qmgr[3093]: 9202420973F1: from=<drulyov@drulyov.com>, size=459, nrcpt=1 (queue active)
+Nov  8 22:41:23 pri postfix/smtp[3142]: 9202420973F1: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.18, delays=0.03/0.02/0.1/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as A0C8210B5FE)
+Nov  8 22:41:23 pri postfix/qmgr[3093]: 9202420973F1: removed
+Nov  8 22:42:15 pri postfix/pickup[3092]: 1E35820973F1: uid=1002 from=<drulyov>
+Nov  8 22:42:15 pri postfix/cleanup[3140]: 1E35820973F1: message-id=<20201109034215.1E35820973F1@mail.drulyov.com>
+Nov  8 22:42:15 pri postfix/qmgr[3093]: 1E35820973F1: from=<drulyov@drulyov.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:42:15 pri postfix/local[3152]: 1E35820973F1: to=<root@drulyov.com>, orig_to=<root>, relay=local, delay=0.02, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:42:15 pri postfix/qmgr[3093]: 1E35820973F1: removed
+Nov  8 22:42:27 pri postfix/smtpd[3153]: connect from unknown[192.168.21.3]
+Nov  8 22:42:27 pri postfix/smtpd[3153]: 2F4F620973F1: client=unknown[192.168.21.3]
+Nov  8 22:42:27 pri postfix/cleanup[3140]: 2F4F620973F1: message-id=<20201109034226.F259010B5D5@mail.sknasser1.com>
+Nov  8 22:42:27 pri postfix/qmgr[3093]: 2F4F620973F1: from=<sknasser1@sknasser1.com>, size=661, nrcpt=1 (queue active)
+Nov  8 22:42:27 pri postfix/local[3152]: 2F4F620973F1: to=<drulyov@drulyov.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:42:27 pri postfix/qmgr[3093]: 2F4F620973F1: removed
+Nov  8 22:42:27 pri postfix/smtpd[3153]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:44:50 pri postfix/smtpd[3165]: connect from unknown[192.168.13.3]
+Nov  8 22:44:50 pri postfix/smtpd[3167]: connect from unknown[192.168.13.3]
+Nov  8 22:44:51 pri postfix/smtpd[3165]: 0B4B920973F1: client=unknown[192.168.13.3]
+Nov  8 22:44:51 pri postfix/cleanup[3169]: 0B4B920973F1: message-id=<20201109032914.C291E20895AF@mail.rjacinto1.com>
+Nov  8 22:44:51 pri postfix/qmgr[3093]: 0B4B920973F1: from=<rjacinto1@rjacinto1.com>, size=683, nrcpt=1 (queue active)
+Nov  8 22:44:51 pri postfix/smtpd[3167]: 0E0C92092133: client=unknown[192.168.13.3]
+Nov  8 22:44:51 pri postfix/smtpd[3165]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:44:51 pri postfix/cleanup[3169]: 0E0C92092133: message-id=<20201109032840.A566920895AD@mail.rjacinto1.com>
+Nov  8 22:44:51 pri postfix/qmgr[3093]: 0E0C92092133: from=<rjacinto1@rjacinto1.com>, size=683, nrcpt=1 (queue active)
+Nov  8 22:44:51 pri postfix/smtpd[3167]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:44:51 pri postfix/local[3171]: 0B4B920973F1: to=<student@drulyov.com>, relay=local, delay=0.08, delays=0.03/0.01/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:44:51 pri postfix/qmgr[3093]: 0B4B920973F1: removed
+Nov  8 22:44:52 pri postfix/local[3172]: 0E0C92092133: to=<student@drulyov.com>, relay=local, delay=1.2, delays=0.03/0.01/0/1.2, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:44:52 pri postfix/qmgr[3093]: 0E0C92092133: removed
+Nov  8 22:48:11 pri postfix/anvil[3155]: statistics: max connection rate 2/60s for (smtp:192.168.13.3) at Nov  8 22:44:50
+Nov  8 22:48:11 pri postfix/anvil[3155]: statistics: max connection count 2 for (smtp:192.168.13.3) at Nov  8 22:44:50
+Nov  8 22:48:11 pri postfix/anvil[3155]: statistics: max cache size 1 at Nov  8 22:42:27
+Nov  8 22:49:51 pri postfix/smtpd[3208]: connect from unknown[192.168.13.3]
+Nov  8 22:49:51 pri postfix/smtpd[3210]: connect from unknown[192.168.13.3]
+Nov  8 22:49:51 pri postfix/smtpd[3208]: 5B78320973F1: client=unknown[192.168.13.3]
+Nov  8 22:49:51 pri postfix/cleanup[3213]: 5B78320973F1: message-id=<20201109031355.6328720A5B2C@mail.rjacinto1.com>
+Nov  8 22:49:51 pri postfix/qmgr[3093]: 5B78320973F1: from=<rjacinto1@rjacinto1.com>, size=683, nrcpt=1 (queue active)
+Nov  8 22:49:51 pri postfix/smtpd[3210]: 5E2792092133: client=unknown[192.168.13.3]
+Nov  8 22:49:51 pri postfix/smtpd[3208]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:49:51 pri postfix/cleanup[3213]: 5E2792092133: message-id=<20201109033410.4E32820973EB@mail.rjacinto1.com>
+Nov  8 22:49:51 pri postfix/qmgr[3093]: 5E2792092133: from=<rjacinto1@rjacinto1.com>, size=683, nrcpt=1 (queue active)
+Nov  8 22:49:51 pri postfix/smtpd[3210]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:49:51 pri postfix/local[3215]: 5B78320973F1: to=<student@drulyov.com>, relay=local, delay=0.05, delays=0.02/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:49:51 pri postfix/qmgr[3093]: 5B78320973F1: removed
+Nov  8 22:49:52 pri postfix/local[3216]: 5E2792092133: to=<student@drulyov.com>, relay=local, delay=0.84, delays=0.03/0.02/0/0.79, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:49:52 pri postfix/qmgr[3093]: 5E2792092133: removed
+Nov  8 22:53:11 pri postfix/anvil[3211]: statistics: max connection rate 2/60s for (smtp:192.168.13.3) at Nov  8 22:49:51
+Nov  8 22:53:11 pri postfix/anvil[3211]: statistics: max connection count 2 for (smtp:192.168.13.3) at Nov  8 22:49:51
+Nov  8 22:53:11 pri postfix/anvil[3211]: statistics: max cache size 1 at Nov  8 22:49:51
+Nov  8 22:54:42 pri postfix/smtpd[3265]: connect from unknown[192.168.21.3]
+Nov  8 22:54:42 pri postfix/smtpd[3265]: 68BFF20973F1: client=unknown[192.168.21.3]
+Nov  8 22:54:42 pri postfix/cleanup[3269]: 68BFF20973F1: message-id=<20201109035442.2ACB210B5D5@mail.sknasser1.com>
+Nov  8 22:54:42 pri postfix/qmgr[3093]: 68BFF20973F1: from=<sknasser1@sknasser1.com>, size=661, nrcpt=1 (queue active)
+Nov  8 22:54:42 pri postfix/smtpd[3265]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:54:42 pri postfix/local[3270]: 68BFF20973F1: to=<drulyov@drulyov.com>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:54:42 pri postfix/qmgr[3093]: 68BFF20973F1: removed
+Nov  8 22:56:39 pri postfix/smtpd[3284]: connect from unknown[unknown]
+Nov  8 22:56:39 pri postfix/smtpd[3284]: lost connection after CONNECT from unknown[unknown]
+Nov  8 22:56:39 pri postfix/smtpd[3284]: disconnect from unknown[unknown] commands=0/0
+Nov  8 22:59:59 pri postfix/anvil[3267]: statistics: max connection rate 1/60s for (smtp:192.168.21.3) at Nov  8 22:54:42
+Nov  8 22:59:59 pri postfix/anvil[3267]: statistics: max connection count 1 for (smtp:192.168.21.3) at Nov  8 22:54:42
+Nov  8 22:59:59 pri postfix/anvil[3267]: statistics: max cache size 1 at Nov  8 22:54:42

@@ -1,0 +1,10 @@
+Server:		192.168.27.53
+Address:	192.168.27.53#53
+
+Non-authoritative answer:
+*** Can't find sknasser1.com: No answer
+
+Authoritative answers can be found from:
+.	nameserver = rns.drulyov.com.
+rns.drulyov.com	internet address = 192.168.27.253
+

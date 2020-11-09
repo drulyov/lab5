@@ -1,0 +1,11 @@
+Server:		192.168.27.2
+Address:	192.168.27.2#53
+
+Non-authoritative answer:
+sknasser1.com	mail exchanger = 10 mail.sknasser1.com.
+
+Authoritative answers can be found from:
+sknasser1.com	nameserver = sknasser1-pri.sknasser1.com.
+mail.sknasser1.com	internet address = 192.168.21.25
+sknasser1-pri.sknasser1.com	internet address = 192.168.21.53
+
