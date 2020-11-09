@@ -1,0 +1,10 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2020-11-08 22:56 EST
+Nmap scan report for mail.drulyov.rns (192.168.27.25)
+Host is up (0.00043s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+53/tcp open  domain
+
+Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds
